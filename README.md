@@ -1,3 +1,4 @@
-# ionic-lek1-x9wshd
+# MKR
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ionic-lek1-x9wshd)
+Diagram: https://drive.google.com/file/d/1CUcYYg5lHd6GCCHsrMKGAn8rNPHjF4Hy/view?usp=sharing
+APP: https://ionic-lek1-x9wshd.stackblitz.io
