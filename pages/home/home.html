@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Іщенко Дмитро Романович КН-32</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2></h2>
+
+  <label for="n">Введіть гусари__</label>
+  <input type="number" value="15" #gusar_input />
+
+  <br />
+  <label for="n">Введіть дракони</label>
+  <input type="number" value="15" #dragon_input />
+
+  <br />
+  <label for="n">Введіть стрільці_</label>
+  <input type="number" value="15" #archer_input />
+  <br />
+  <br />
+  <button
+    (click)="ras(gusar_input.value,dragon_input.value,archer_input.value)"
+  >
+    Розрахунок
+  </button>
+
+  <p *ngFor="let rez of rezult">{{rez}}</p>
+</ion-content>
